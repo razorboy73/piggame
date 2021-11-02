@@ -13,7 +13,7 @@ let scores = [0, 0];
 let currentScore = 0;
 let activePlayer = 0;
 let gamePlay = true;
-let winScore = 10;
+let winScore = 100;
 
 btnNew.addEventListener('click', resetBoard);
 diceRoll.addEventListener('click', rollDie);
